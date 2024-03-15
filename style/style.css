@@ -26,9 +26,38 @@ body{
     justify-content: center;
 }
 .main_container{
-border: 1px outset solid crimson;
+border: 1px  solid crimson;
+max-width: 80%;
 }
+.intro{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.intro_text{
+  width: 50%;
+  padding-right: 250px;
+}
+.intro_text h1{
+color: var(--Very-Dark-Magenta);
+font-size: 3rem;
+margin-bottom: 3rem;
+}
+.intro_text p{
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: 500;
+}
+#testimonies{
+  display: flex; 
+   gap: 2rem;
 
+}
+.testimonial{
+  width: calc(100%/3);
+  background: var(--Very-Dark-Magenta);
+  border-radius: 8px;
+  color: var(--White);
+}
 
 .attribution {
   font-size: 11px;
