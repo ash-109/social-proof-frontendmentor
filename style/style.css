@@ -47,6 +47,14 @@ margin-bottom: 3rem;
   color: var(--Dark-Grayish-Magenta);
   font-weight: 500;
 }
+.rating_div{
+  background: var(--Light-Grayish-Magenta)
+  ;
+  margin-bottom: 2rem;
+}
+
+
+
 #testimonies{
   display: flex; 
    gap: 2rem;
@@ -59,10 +67,10 @@ margin-bottom: 3rem;
   color: var(--White);
 }
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
