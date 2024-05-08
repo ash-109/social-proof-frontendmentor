@@ -26,20 +26,21 @@ body {
   justify-content: center;
 }
 .main_container {
-  max-width: 75%;
+  max-width: 70%;
 }
 .intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
+
 }
 .intro_text {
   width: 40%;
 }
 .intro_text h1 {
   color: var(--Very-Dark-Magenta);
-  font-size: 3rem;
+  font-size: 3.3rem;
   margin-bottom: 1.7rem;
   letter-spacing:-2px;
 }
@@ -47,19 +48,20 @@ body {
   color: var(--Dark-Grayish-Magenta);
   font-weight: 500;
   line-height: 1.3rem;
+  font-size: 1.1rem;
 }
 .ratings {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
 }
 .rating_div {
   background: var(--Light-Grayish-Magenta);
   margin-bottom: 0.8rem;
   display: flex;
-  padding: 15px 25px;
+  width: 380px;
+  padding: 1rem 2rem;
   align-items: center;
-  /* width: 55%; */
   border-radius: 6px;
   gap: 2rem;
 }
@@ -81,14 +83,14 @@ body {
 #testimonies {
   display: flex;
   gap: 2rem;
-  height: 250px;
+  height: 230px;
 }
 .testimonial {
   width: calc(100% / 3);
   background: var(--Very-Dark-Magenta);
   border-radius: 8px;
   color: var(--White);
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 2.3rem;
 }
 .witness-id{
   line-height: 1.1rem;
@@ -108,16 +110,16 @@ body {
 .testimonial_header {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  gap: 1.2rem;
 }
 .profile_image {
   border-radius: 50%;
   width: 34px;
-  margin-right: 1.5rem;
 }
 .testimonial_text {
   line-height: 20px;
-  font-size: 1rem;
+  font-size: 0.93rem;
 }
 
 /* .attribution {
