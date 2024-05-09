@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: url(/images/Background/desktop/bg-pattern-top-desktop.svg),
     url(/images/Background/desktop/bg-pattern-bottom-desktop.svg) right;
@@ -129,3 +129,51 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 } */
+@media screen and (max-width:980px) {
+  .main_container{
+gap: 2rem;  
+}
+  .intro{
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    
+  }
+  .intro_text{
+    width: 70%;
+  }
+  .ratings{
+    width: 70%;
+  }
+  .rating_div{
+    align-self: center;
+    width: 100%;
+  }
+  #testimonies{
+    align-items: start;
+    display: flex;
+    height: auto;
+    gap: 1rem;
+  }
+  .testimonial:nth-child(1),.testimonial:nth-child(2), .testimonial:nth-child(3){
+    align-self: stretch;
+    height: auto;
+    flex-shrink: 1;
+
+  }
+  .testimonial_header{
+    width: 100%;
+    display: flex;
+  }
+}
+@media screen and (max-width:770px) {
+  #testimonies{
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+  }
+  .testimonial{
+    margin: 0 auto;
+    width: 60%;
+  }
+}
