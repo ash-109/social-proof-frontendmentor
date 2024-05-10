@@ -22,11 +22,19 @@ body {
   background-repeat: no-repeat;
   font-family: "League Spartan";
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2.5rem;
 }
 .main_container {
+  display: flex;
   max-width: 70%;
+  gap: 3.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .intro {
   display: flex;
@@ -121,14 +129,17 @@ body {
   line-height: 20px;
   font-size: 0.93rem;
 }
-
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
+.attribution{
+  font-size: 1rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+.attribution a{
+  text-decoration: none;
+  color: var(--Very-Dark-Magenta);
+}
+.attribution a:hover{
+  text-decoration: underline 1.5px var(--Very-Dark-Magenta);
+  text-underline-offset: 4px;
+}
 @media screen and (max-width:980px) {
   .main_container{
 gap: 2rem;  
